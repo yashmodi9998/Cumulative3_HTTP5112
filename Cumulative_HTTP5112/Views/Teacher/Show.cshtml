@@ -1,0 +1,16 @@
+@model Cumulative_HTTP5112.Models.Teacher
+@{
+    ViewBag.Title = "Show";
+}
+<nav>
+    <a class="navlink" href="/Teacher/List">Back To Teachers</a>
+    <a class="dellink" href="/Teacher/DeleteData/@Model.TeacherId">Delete</a>
+    <a class="navlink" href="/Teacher/Update/@Model.TeacherId">Update</a>
+</nav>
+<div id="containershow">
+    <h2>Name: @Model.TeacherFname @Model.TeacherLname  </h2>
+    <p>Employee Id: @Model.EmployeeNumber</p>
+    <p>Date of Hiring: @Model.HireDate</p>
+    <p>Salary : @Model.Salary $ / hour</p>
+</div>
+

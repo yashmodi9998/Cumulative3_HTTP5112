@@ -1,0 +1,44 @@
+﻿/* Set padding to keep content from hitting the edges */
+.body-content {
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar {
+    color:darkcyan;
+    background-color: black;
+    justify-content:center;
+}
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: center;
+    width: 100%;
+}
+a{
+    text-decoration:none;
+    color:darkcyan;
+}
+.item {
+    background-color: lightcyan;
+    color: black;
+    font-size: 1.5em;
+    height: 150px;
+    width: 220px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
